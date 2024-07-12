@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name":" Asgaard Sofa",
+        "price": 5000,
+        "image": "Group 95.png"
+    },
+    {
+        "id": 2,
+        "name":" Lolito Sofa",
+        "price": 10000,
+        "image": "images.png"
+    },
+    {
+        "id": 3,
+        "name":" Respira Sofa",
+        "price": 15000,
+        "image": "image 4 copy.png"
+    },
+    {
+        "id": 4,
+        "name":" Syltherine Sofa",
+        "price": 2500,
+        "image": "images (1).png"
+    },
+    {
+        "id": 5,
+        "name":" Asgaard Sofa",
+        "price": 5000,
+        "image": "Group 95.png"
+    },
+    {
+        "id": 6,
+        "name":" Lolito Sofa",
+        "price": 10000,
+        "image": "images.png"
+    },
+    {
+        "id": 7,
+        "name":" Respira Sofa",
+        "price": 15000,
+        "image": "image 4 copy.png"
+    },
+    {
+        "id": 8,
+        "name":" Syltherine Sofa",
+        "price": 2500,
+        "image": "images (1).png"
+    },
+    {
+        "id": 9,
+        "name":" Asgaard Sofa",
+        "price": 5000,
+        "image": "Group 95.png"
+    },
+    {
+        "id": 10,
+        "name":" Lolito Sofa",
+        "price": 10000,
+        "image": "images.png"
+    },
+    {
+        "id": 11,
+        "name":" Respira Sofa",
+        "price": 1500,
+        "image": "image 4 copy.png"
+    },
+    {
+        "id": 12,
+        "name":" Syltherine Sofa",
+        "price": 2500,
+        "image": "images (1).png"
+    },
+    {
+        "id": 13,
+        "name":" Asgaard Sofa",
+        "price": 5000,
+        "image": "Group 95.png"
+    },
+    {
+        "id": 14,
+        "name":" Lolito Sofa",
+        "price": 10000,
+        "image": "images.png"
+    },
+    {
+        "id": 15,
+        "name":" Respira Sofa",
+        "price": 15000,
+        "image": "image 4 copy.png"
+    },
+    {
+        "id": 16,
+        "name":" Syltherine Sofa",
+        "price": 2500,
+        "image": "images (1).png"
+    }
+
+]

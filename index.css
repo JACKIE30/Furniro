@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(100px);
+}
+
+.nav-container{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 50px;
+    height: 56px;
+    z-index: 999;
+    height: 65px;
+    height: 90px;
+    background-color: rgba(250, 250, 250, 0.7)
+    
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    margin-bottom: 15px;
+    
+   
+}
+.nav-container ul li{
+    cursor: pointer;
+    padding:0px 10px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+.nav-container .icons{
+    display: flex;
+    gap: 8px;
+}
+.nav-container ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.logo-write{
+    display: flex;
+}
+.logo-write h4{
+    padding-left: 20px;
+    
+    font-size: 30px;
+}
+.logo-write a{
+    text-decoration: none;
+
+}
+
+.button-buynow{
+    border: none;
+    color: white;
+    background-color: #b88e2f;
+    padding: 20px 60px;
+    border-radius: 1px;
+}
+
+.toggle-btn{
+    color: #000;
+    display: block;
+    cursor: pointer;
+    display: none;
+}
+.dscour{
+    font-size: 52px;
+    font-weight: 600; color: #b88e2f; margin-top: 15px; margin-bottom: 15px; line-height: 65px;
+}
+.promo-lorem{
+    font-size: 18px;
+}
+.promo{
+    background-image: url(scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.promo div{
+    width: 643px;
+    height: 443px;
+    background-color: #fff3e3;
+    float: right;
+    padding-top: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+.Browse{
+    text-align: center;
+}
+.Categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 180px;
+}
+.rooms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bed-room{
+    background-image: url(Rectangle\ 24.png);
+    width: 402px;
+    height: 582px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.closet-room{
+    background-image: url(Rectangle\ 25.png);
+    width: 402px;
+    height: 582px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rooms div:nth-child(1){
+    float: left;
+    
+}
+.iconify{
+    text-decoration: none;
+    color: black;
+}
+.rooms div:nth-child(2){
+    float: right;
+}
+.bed-room div {
+    background-color: rgba(250, 250, 250, 0.55);
+    padding: 35px;
+    margin-left: 83px;
+    margin-top: 400px;
+
+}
+.closet-room div{
+    background-color: rgba(250, 250, 250, 0.55);
+    padding: 35px;
+    margin-left: 83px;
+    margin-top: 400px;
+
+} 
+.more-details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #faf3ea;
+    padding-bottom: 100px;
+}
+.more-details div{
+    display: flex;
+}
+.more-details div div{
+    display: grid;
+}
+.more-details div div p:nth-child(1){
+    font-size: 25px;
+    color: #242424;
+}
+.more-details div div p:nth-child(2){
+    font-size: 20px;
+    color: #898989;
+}
+.more-details div img{
+    margin-right: 10px;
+}
+footer section{
+    display: flex;
+   
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+footer section section{
+    display: grid;
+}
+footer section section:nth-child(1) div h3{
+    font-size: 24px;
+    color: black;
+    padding-bottom: 60px;
+}
+footer section section:nth-child(1) p{
+    font-size: 16px;
+    color: #9f9f9f;
+}
+footer section section div:nth-child(1){
+    font-size: 16px;
+    color: #9f9f9f;
+}
+footer section section div:nth-child(2) ul{
+    list-style: none;
+    color: black;
+    font-size: 16px;
+}
+footer section section:nth-child(1) p{
+    font-size: 16px;
+    color: #9f9f9f;
+}
+.Email{
+    border: none;
+    font-size: 14px;
+    width: 180px;
+    border-bottom: 1px solid black;
+}
+.SUBSCRIBE{
+    border-bottom: 1px solid black;
+
+}
+.last{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.space{
+    padding-bottom: 70px;
+}
+.spacing{
+    padding-bottom: 40px;
+}
+.icon{
+    text-decoration: none;
+    color: black;
+}
+.person, .search{
+    padding-top: 7px;
+}
+.cart-shopping{
+    background-color: #fff3e3;
+    width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 8px;
+    display: flex;
+}
+.cart-increment{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 7px;
+}
+@media screen and (max-width: 1302px) {
+    .move-right{
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width: 921px) {
+    .Categories{
+        margin-left: 30%;
+    }
+    .move-right{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 1128px) {
+    .more-details-move-right{
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 892px) {
+    .more-details-move-right{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 1295px) {
+    .float-right{
+        display: grid;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav-container ul{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color:rgba(250, 250, 250, 0.3);
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    .nav-container ul li{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .iconify{
+        position: absolute;
+        top: 282px;
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        text-align: center;
+        background-color:rgba(250, 250, 250, 0.3);
+        overflow: hidden;
+        transition: all 0.3s;
+        
+    }
+    .person{
+        background-color:rgba(250, 250, 250, 0.1);
+        /* overflow: hidden; */
+        
+    }
+    .icon{
+        display: none;
+    }
+
+    
+    
+    .toggle-btn{
+        display: block;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: end;
+    }
+    .nav-container{
+        position: relative;
+    }
+    .logo-write{
+        position: absolute;
+        left: 0;
+        padding-left: 30px;
+    }
+    .cart-shopping{
+        margin-right: 10px;
+    } 
+    
+}
+@media screen and (max-width:819px) {
+    .promo div{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 752px) {
+    .change-btn{
+        padding: 20px 30px;
+    }
+}
+@media screen and (max-width: 726px) {
+    .rooms{
+        display: grid;
+        text-align: center;
+        place-items: center;
+        justify-content: center;
+    }
+    .flex-karna{
+        margin-top: 80px;
+        padding-left: 80px;
+    }
+    footer section{
+        display: grid;  
+        place-content: center;
+    }
+}
+@media screen and (max-width:690px) {
+    .catg-img{
+        height: 350px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 666px) {
+    .more-details{
+        display: grid;
+        place-content: center;
+    }
+}
+@media screen and (max-width: 660px) {
+    .promo div{
+        width: 400px;
+        
+    }
+    .dscour{
+        font-size: 40px;
+    }
+    .promo-lorem{
+        font-size: 14px;
+    }
+    .catg-img{
+        height: 300px;
+        width: 250px;
+    }
+    .bed-room,
+    .closet-room{
+        width: 300px;
+        height: 450px;
+    }
+    .bed-room div,
+    .closet-room div{
+        margin-left: 40px;
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 550px){
+    .promo div{
+        width: 250px;
+        height: 450px;
+    }
+    .dscour{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .promo-btn{
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width: 506px) {
+    .catg-img{
+        height: 250px;
+        width: 200px;
+    }
+}
