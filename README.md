@@ -5,3 +5,6 @@ Some highlights of this project include:
 🔹 Dynamic product listings to help users find exactly what they need.
 🔹 Multiple categories to streamline product discovery. 
 🔹 "Add to cart" feature for a convenient shopping experience.
+
+
+DEPLOYED LINK: https://furniroecom.netlify.app
